@@ -84,7 +84,6 @@ div.logo {
     
 }
 
-
 nav ul{
     list-style: none;
     display: flex;
@@ -108,7 +107,6 @@ main{
      padding: 250px;
      
     } 
-
 
 h1{
     font-family: 'Dancing Script', cursive;
@@ -178,7 +176,6 @@ section.foto img{
     animation: h1 8s;
     width: 500px;
     border-radius: 10%
-    
 }
 
 section.text1{
@@ -193,7 +190,7 @@ section.text1{
     text-align: center;
     line-height: 35pt;
     background-color: whitesmoke;
-    border-radius: 5%;
+    border-radius: 10%;
     width: 600px;
     
 }
@@ -212,7 +209,8 @@ section.text2{
     font-family: 'Dancing Script', cursive;
     font-size: 35px;
     color:rgb(251, 95, 128);
-
+    position: relative;
+    animation: text2 5s infinite;
 }
 
 section.info1{
@@ -235,11 +233,8 @@ section.works{
     font-size: 25px;
     color:rgb(102, 95, 95);
     font-weight: 400;
-    text-align: center;
-   
-    
+    text-align: center;    
 }
-
 
 footer{
     background-color: rgb(102, 95, 95);
@@ -248,9 +243,7 @@ footer{
     color: rgb(236, 255, 253); 
     display: flex;
     justify-content: flex-end;
-    align-items: center; 
-    
-    
+    align-items: center;     
 } 
 
 div.Contact{
@@ -271,17 +264,15 @@ div.icon{
 }
 
 @keyframes h1{
-    0% {opacity: 0;
-        }
-    100% { opacity: 1;
-         }
-        }
+    0% {opacity: 0;}
+    100% { opacity: 1;}
+}
 
 @keyframes foto{
-    10%{opacity: 0;
-
-    }
-    100%{opacity: 100;
-
-    }
+    10%{opacity: 0;}
+    100%{opacity: 100;}
+}
+@keyframes text2{
+    0% {opacity: 0;}
+    100% { opacity: 1;}
 }
